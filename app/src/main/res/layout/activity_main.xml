@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sk2"
+    tools:context="MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/we"
+        android:textColor="#F06292"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="46sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="5dp"
+        android:text="DO!"
+        android:textColor="#F06292"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="52sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="Carla and"
+        android:textColor="#F06292"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F06292"
+        android:textStyle="italic|bold"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:text="ALex" />
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#212121"
+        android:fontFamily="casual"
+        android:textSize="14sp"
+        android:text="@string/more_info" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="25dp"
+        android:text="SAVE THE DATE!"
+        android:textColor="#F06292"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="32sp" />
+
+
+
+</LinearLayout>
